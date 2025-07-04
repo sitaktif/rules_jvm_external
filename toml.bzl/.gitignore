@@ -1,0 +1,32 @@
+# IntelliJ specific files/directories
+out
+.idea
+.vscode
+*.ipr
+*.iws
+*.iml
+
+# VirtualEnv
+venv
+.venv
+
+# Bazel files
+bazel-*
+
+# Python by-products
+*.pyc
+
+.DS_Store
+.out
+.cicd
+.ijwb
+
+# Temporary downloads for docker image building.
+bazelw/downloads/
+cnr/downloads/
+
+# Rust output in case people run `cargo` manually.
+/target
+
+# Python notebooks metadata.
+.ipynb_checkpoints/

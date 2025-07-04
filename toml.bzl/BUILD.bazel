@@ -1,0 +1,9 @@
+load("//test:toml_test.bzl", "toml_test_suite")
+load("//test:toml_test_fail.bzl", "toml_test_fail_suite")
+load("//test:toml_test_large.bzl", "toml_test_large_suite")
+
+toml_test_suite(name = "toml_test")
+
+toml_test_fail_suite(name = "toml_test_fail")
+
+toml_test_large_suite(name = "toml_test_large")

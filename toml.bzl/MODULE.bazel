@@ -1,0 +1,3 @@
+module(name = "toml_parser")
+
+bazel_dep(name = "bazel_skylib", version = "1.5.0")
